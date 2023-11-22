@@ -9,7 +9,7 @@ body {
 /* --------------HEADER-------------- */
 .banner {
     background-image: url(assets/images/banner.png),linear-gradient(#000000a0,#31A8DDa0,#000000a0);
-    background-image: ;
+    
     height:605px;
     display: flex;
     align-items: center;
