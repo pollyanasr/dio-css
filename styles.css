@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* --------------HEADER-------------- */
+.banner {
+    background-image: url(assets/images/banner.png),linear-gradient(#000000a0,#31A8DDa0,#000000a0);
+    background-image: ;
+    height:605px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #33A8DB;
+    
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.8);
+    width:268px;
+    height:268px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.banner-content button {
+    
+    color: #33A8DB;
+    font-weight: 900;
+    font-size: 16px;
+    width: 326px;
+    height: 57px;
+    background-color: transparent;
+    border: 2px solid #3BA1CD;
+    
+}
+
+.banner-content h1 {
+    font-weight: 900;
+    font-size: 40px;
+  
+    background: repeating-linear-gradient(#33A8DB,#1472B7);
+    -webkit-background-clip: text;
+    color: transparent; 
+      
+}
+
+.banner-content p {
+   
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    width: 510px;
+    height: 46px;
+}
+
+
+
+
+
+
+/* --------------MAIN-------------- */
+
+/* ------O que vou aprender?------*/
+#course-content {
+    margin: auto;
+    text-align: center;
+    height: 400px;
+    width: 792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#course-content h2{
+    font-weight: 700;
+    font-size: 32px;
+    background: repeating-linear-gradient(#33A8DB,#1472B7);
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin: 0;
+}
+
+
+.course-content-p {
+    margin: 24px 0 0 0;
+    font-weight: 400;
+    size: 16px;
+    width: 792px;
+    height: 38px;
+    
+}
+
+.module {
+    width: 535px;
+    height: 51px;
+    color: white;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.module > span {
+    color: #33A8DB;
+    margin-right: 5px;
+}
+
+/*-- TRANSFORME O MUNDO COM A GENTE ---*/
+
+
+
+#transform-world {
+   
+    height: 400px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    border: 1px solid #3BA1CD;
+
+}
+
+.transform-world-p {
+    margin: 0;
+    font-weight: 900;
+    font-size: 35px;
+    width: 244px;
+    height: 141px;
+    color: white;
+    margin-left: 100px;
+}
+
+/* Evolua e encare novos desafios profissionais*/
+
+#professional-challenges {
+    width: 792px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+#professional-challenges h2{
+    width: 746px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 32px;
+    background: repeating-linear-gradient(#33A8DB,#1472B7);
+    -webkit-background-clip: text;
+    color: transparent; 
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+#professional-challenges p{
+    font-size: 16px;
+}
+
+#professional-challenges img {
+    width: 659px;
+}
+
+
+/* --------------FOOTER-------------- */
+footer {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #33A8DB;
+
+}
+
+footer p  {
+    
+    font-size: 16px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: 700;
+    font-size: 16px;
+}
