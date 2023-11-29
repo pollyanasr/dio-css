@@ -75,7 +75,7 @@ body {
 
 /* ------O que vou aprender?------*/
 #course-content {
-    margin: auto;
+    /*margin: auto;
     text-align: center;
     height: 400px;
     width: 792px;
@@ -84,40 +84,59 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
-    margin-bottom: 100px;
-
+    margin-bottom: 100px;*/
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    margin: 150px 0;
 }
 
 #course-content h2{
-    font-weight: 700;
-    font-size: 32px;
-    background: repeating-linear-gradient(#33A8DB,#1472B7);
-    -webkit-background-clip: text;
-    color: transparent; 
     margin: 0;
-}
+    color: #33A8DB;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    }
 
 
 .course-content-p {
-    margin: 24px 0 0 0;
-    font-weight: 400;
-    size: 16px;
+    margin: 0;
     width: 792px;
-    height: 38px;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
     
 }
 
+.modules-list {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .module {
-    width: 535px;
-    height: 51px;
-    color: white;
-    border: 1px solid #33A8DB;
-    border-radius: 57px;
-    background-color: #252525;
     display: flex;
+    width: 535px;
+    padding: 16px 127px;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
+    gap: 10px;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
 }
 
 .module > span {
@@ -144,11 +163,14 @@ body {
 .transform-world-p {
     margin: 0;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 40px;
     width: 244px;
     height: 141px;
     color: white;
     margin-left: 100px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-style: normal;
+    line-height: normal;
 }
 
 /* Evolua e encare novos desafios profissionais*/
